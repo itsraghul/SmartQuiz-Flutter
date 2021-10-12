@@ -9,23 +9,23 @@ class Result extends StatelessWidget {
     var resultText ='AA' ;
     if (result <= 10) 
      {
-      resultText = 'Sorry Fam!\vIt is possible that you are not a Gaji at all or maybe a very serious Kanni Gaji.';
+      resultText = 'Sorry Fam!\vIt is possible that you are not a smart at all or maybe a very serious idiot.';
      } 
     else if (result <= 20) 
      {
-      resultText = 'You are a Desi Gaji \v It\'s okay.\v You can improve.';
+      resultText = 'You are somewhat knowledgeable \v It\'s okay.\v You can improve.';
      } 
     else if(result <=28) 
      {
-      resultText = 'You are an Amateur Gaji.\v But if you work hard you can be something phenomenal.';
+      resultText = 'You are an amateur quiz master.\v But if you work hard you can be something phenomenal.';
      }
     else if(result <=35)
       {
-        resultText = 'Some good news!\vYou are an Agmark qualified Gaji.'; 
+        resultText = 'Some good news!\vYou are a qualified quiz master.'; 
       }
     else 
       {
-       resultText = 'Congratulations.\v You are a Supreme Gaji Pro.\v You are one of a kind.';
+       resultText = 'Congratulations.\v You are a Supreme Quiz  Pro.\v You are one of a kind.';
       }
     return resultText;
     
